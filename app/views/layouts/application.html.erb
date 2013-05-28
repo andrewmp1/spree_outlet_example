@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SpreeOutletExample</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <% if true %>
+  <h3> Hello <5= @spree_current_user.email %>
+  <% end %>
+<script>
+  <% if @spree_current_user %>
+    var api_key = <%= @current_user.api_key %>;
+  <% end %>
+</script>
+<%= yield %>
+
+</body>
+</html>
