@@ -6,7 +6,13 @@ at the url namespace "/outlet" while the existing spree store still lives at the
 
 Instructions.
 
-Checkout.  Run migrations & seed.
+Checkout project
+
+Checkout Spree Outlet & symlink to spree_outlet directory
+
+Bundle Install
+
+Run migrations & seed.
 
 Start rails App.
 
