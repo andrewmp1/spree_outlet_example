@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/spree/spree.git
-  revision: 6578947132613958cd254ce8ff2a28c8654a7204
+  revision: 8d2a00bf31422766d3608d9e58ccd7e447134974
   specs:
     spree (2.1.0.beta)
       spree_api (= 2.1.0.beta)
@@ -59,7 +59,7 @@ GIT
 
 GIT
   remote: git://github.com/spree/spree_auth_devise.git
-  revision: 59f8b11da9808567b28eff6c296ad645cbb54048
+  revision: 41135abba140ed84ea7cdcb1cf743db01de596cc
   specs:
     spree_auth_devise (2.1.0)
       cancan (~> 1.6.7)
@@ -68,6 +68,12 @@ GIT
       spree_backend (~> 2.1.0.beta)
       spree_core (~> 2.1.0.beta)
       spree_frontend (~> 2.1.0.beta)
+
+PATH
+  remote: spree_api_extend
+  specs:
+    spree_api_extend (2.1.0.beta)
+      spree_core (~> 2.1.0.beta)
 
 PATH
   remote: spree_outlet
@@ -96,7 +102,7 @@ GEM
     active_utils (1.0.5)
       activesupport (>= 2.3.11)
       i18n
-    activemerchant (1.32.1)
+    activemerchant (1.33.0)
       active_utils (>= 1.0.2)
       activesupport (>= 2.3.14)
       builder (>= 2.0.0)
@@ -170,7 +176,7 @@ GEM
       multi_xml (>= 0.5.2)
     i18n (0.6.1)
     journey (1.0.4)
-    jquery-rails (2.2.1)
+    jquery-rails (2.2.2)
       railties (>= 3.0, < 5.0)
       thor (>= 0.14, < 2.0)
     json (1.8.0)
@@ -184,8 +190,8 @@ GEM
     mime-types (1.23)
     money (5.1.1)
       i18n (~> 0.6.0)
-    multi_json (1.7.3)
-    multi_xml (0.5.3)
+    multi_json (1.7.6)
+    multi_xml (0.5.4)
     nokogiri (1.5.9)
     orm_adapter (0.4.0)
     paperclip (3.4.2)
@@ -245,7 +251,7 @@ GEM
     stringex (1.5.1)
     thor (0.18.1)
     tilt (1.4.1)
-    treetop (1.4.12)
+    treetop (1.4.14)
       polyglot
       polyglot (>= 0.3.1)
     truncate_html (0.9.2)
@@ -270,6 +276,7 @@ DEPENDENCIES
   rails (= 3.2.13)
   sass-rails (~> 3.2.3)
   spree!
+  spree_api_extend!
   spree_auth_devise!
   spree_outlet!
   sqlite3
