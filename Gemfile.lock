@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/spree/spree.git
-  revision: 8d2a00bf31422766d3608d9e58ccd7e447134974
+  revision: c3db7b7ff628b481403b9be8372257f14cd39d73
   specs:
     spree (2.1.0.beta)
       spree_api (= 2.1.0.beta)
@@ -82,6 +82,7 @@ PATH
       barber
       jquery-rails
       rails (~> 3.2.8)
+      spree (>= 2.0.0)
 
 GEM
   remote: https://rubygems.org/
@@ -170,7 +171,7 @@ GEM
     ffaker (1.16.1)
     handlebars-source (1.0.9)
     highline (1.6.18)
-    hike (1.2.2)
+    hike (1.2.3)
     httparty (0.11.0)
       multi_json (~> 1.0)
       multi_xml (>= 0.5.2)
@@ -192,7 +193,7 @@ GEM
       i18n (~> 0.6.0)
     multi_json (1.7.6)
     multi_xml (0.5.4)
-    nokogiri (1.5.9)
+    nokogiri (1.5.10)
     orm_adapter (0.4.0)
     paperclip (3.4.2)
       activemodel (>= 3.0.0)
