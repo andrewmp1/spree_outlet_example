@@ -4,6 +4,8 @@ This is an example application of a Spree 2.0.0 Store using the Spree Outlet Gem
 Spree Outlet gem is a rails engine that serves up an ember store that uses spree api and mounted
 at the url namespace "/outlet" while the existing spree store still lives at the root "/".
 
+Spree Outlet: http://github.com/andrewmp1/spree_outlet
+
 Instructions.
 
 Checkout project
