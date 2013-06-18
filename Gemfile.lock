@@ -69,14 +69,16 @@ GIT
       spree_core (~> 2.1.0.beta)
       spree_frontend (~> 2.1.0.beta)
 
-PATH
-  remote: spree_api_extend
+GIT
+  remote: git@github.com:andrewmp1/spree_api_extend.git
+  revision: 0f6a873ff466ab8bb6d01de8e58aa64c3965a851
   specs:
     spree_api_extend (2.1.0.beta)
       spree_core (~> 2.1.0.beta)
 
-PATH
-  remote: spree_outlet
+GIT
+  remote: git@github.com:andrewmp1/spree_outlet.git
+  revision: 006e6da1fe3cac783d9d6bc38e7c1eb825f8f130
   specs:
     spree_outlet (0.1.0)
       barber
