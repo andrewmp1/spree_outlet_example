@@ -6,19 +6,19 @@ at the url namespace "/outlet" while the existing spree store still lives at the
 
 Spree Outlet: http://github.com/andrewmp1/spree_outlet
 
-Existing Spree store at "/"
+ * Existing Spree store at "/"
 
-Ember Spree store at "/outlet/"
+ * Ember Spree store at "/outlet/"
 
-Spree Admin at "/admin/"
+ * Spree Admin at "/admin/"
 
 ## Instructions
 
 If you want to demo this application yourself, run these commands:
 
-git clone git://github.com/andrewmp1/spree_outlet_example
-cd spree_outlet_example
-bundle install
-rake db:drop db:create db:migrate db:seed AUTO_ACCEPT=true
-rake spree_sample:load
-rails s
+	git clone git://github.com/andrewmp1/spree_outlet_example
+	cd spree_outlet_example
+	bundle install
+	rake db:drop db:create db:migrate db:seed AUTO_ACCEPT=true
+	rake spree_sample:load
+	rails s
